@@ -1,9 +1,10 @@
-angular.module('Sample').controller('MainController', ['$scope','$state',MainController]);
+angular.module('Sample').controller('MainController', ['$scope', '$state', '$timeout', '$mdSidenav', MainController]);
 
-function MainController($scope, $state) {
-    
-    $scope.navigate = function(url){
-         $state.go(url);
+function MainController($scope, $state, $timeout, $mdSidenav) {
+
+
+    $scope.navigate = function (url) {
+        $state.go(url);
     }
 
 }

@@ -23,4 +23,8 @@ angular
                 }
             })
         $mdThemingProvider.theme('blue')
+         $mdThemingProvider.theme('docs-dark', 'default')
+          .primaryPalette('yellow')
+          .dark();
+
     });
