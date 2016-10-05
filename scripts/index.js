@@ -1,1 +1,1 @@
- angular.module('BlankApp', ['ngMaterial']);
+ angular.module('Sample', ['ngMaterial']);
